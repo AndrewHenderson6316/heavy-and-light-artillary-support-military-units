@@ -1,0 +1,11 @@
+﻿{
+	"name":	"heavy and light artillary support military units",
+	"id":	"",
+	"version":	"0.1",
+	"supported_game_version":	"1.X",
+	"short_description":	"This mod adds them for support and artillery as well. This would open an opportunity to fix/improve some current complaints with war. Introducing: a) Engineer corps (Heavy Support): would speed up sieges, remove getting frozen in winters and give minor movemnt speed over rivers. Super expansive; Heavy Artillarly would be superior for sieging down fortifications while Light Artillary would shine in battles.",
+	"tags":	["Military"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}
