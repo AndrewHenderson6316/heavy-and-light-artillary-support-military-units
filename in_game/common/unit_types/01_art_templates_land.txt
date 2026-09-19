@@ -1,0 +1,24 @@
+
+
+a_age_2_renaissance_light_artillery = {
+	category = army_artillery
+	hide = yes
+	buildable = no
+	max_strength = 0.2
+	combat_power = 3
+	bombard_efficiency = 0.125
+	
+	artillery_barrage = 3
+	age = "age_2_renaissance"
+}
+a_age_2_renaissance_heavy_artillery = {
+	category = army_artillery
+	hide = yes
+	buildable = no
+	max_strength = 0.2
+	combat_power = 3
+	bombard_efficiency = 0.05
+	
+	artillery_barrage = 4
+	age = "age_2_renaissance"
+}
