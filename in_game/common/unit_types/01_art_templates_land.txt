@@ -1,7 +1,7 @@
 
 
 a_age_2_renaissance_light_artillery = {
-	category = army_artillery
+	category = army_light_artillery
 	hide = yes
 	buildable = no
 	max_strength = 0.2
@@ -12,7 +12,7 @@ a_age_2_renaissance_light_artillery = {
 	age = "age_2_renaissance"
 }
 a_age_2_renaissance_heavy_artillery = {
-	category = army_artillery
+	category = army_heavy_artillery
 	hide = yes
 	buildable = no
 	max_strength = 0.2
