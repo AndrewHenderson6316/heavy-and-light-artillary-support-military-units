@@ -1,3 +1,7 @@
+﻿### age 1 ###
+
+### age 2 ###
+
 a_light_houfnice = {
 	copy_from = a_age_2_renaissance_light_artillery
 
@@ -7,7 +11,7 @@ a_light_houfnice = {
 		multiply = 0.05
 	}
 	
-	upgrades_to = a_falconet
+	upgrades_to = a_light_falconet
 }
 a_heavy_houfnice = {
 	copy_from = a_age_2_renaissance_heavy_artillery
@@ -18,5 +22,115 @@ a_heavy_houfnice = {
 		multiply = 0.05
 	}
 	
-	upgrades_to = a_falconet
+	upgrades_to = a_heavy_falconet
+}
+
+### age 3 ###
+
+a_light_falconet = {
+	copy_from = a_age_3_discovery_light_artillery
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+
+
+	upgrades_to = a_light_chambered_cannon
+
+}
+
+a_heavy_falconet = {
+	copy_from = a_age_3_discovery_heavy_artillery
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+
+
+	upgrades_to = a_heavy_chambered_cannon
+
+}
+
+### age 4 ###
+
+a_light_chambered_cannon = {
+	copy_from = a_age_4_reformation_light_artillery
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+
+	upgrades_to = a_light_royal_mortar
+}
+
+a_heavy_chambered_cannon = {
+	copy_from = a_age_4_reformation_heavy_artillery
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+
+	upgrades_to = a_heavy_royal_mortar
+}
+
+### age 5 ###
+
+a_light_royal_mortar = {
+	copy_from = a_age_5_absolutism_light_artillery
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+
+	
+	
+	upgrades_to = a_light_flying_battery
+}
+
+a_heavy_royal_mortar = {
+	copy_from = a_age_5_absolutism_heavy_artillery
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+
+	
+	
+	upgrades_to = a_heavy_flying_battery
+}
+
+### age 6 ###
+
+a_light_flying_battery = {
+	copy_from = a_age_6_revolutions_light_artillery
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+
+}
+
+a_heavy_flying_battery = {
+	copy_from = a_age_6_revolutions_heavy_artillery
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+
 }
