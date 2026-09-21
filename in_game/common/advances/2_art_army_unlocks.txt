@@ -1,7 +1,7 @@
 ﻿######################
 # Artillery
 ######################
-unlock_houfnice_advance = {
+unlock_houfnice2_advance = {
 	age = age_2_renaissance
 	unlock_unit = a_light_houfnice
 	unlock_unit = a_heavy_houfnice
@@ -11,7 +11,7 @@ unlock_houfnice_advance = {
 }
 
 
-unlock_falconet_advance = {
+unlock_falconet2_advance = {
 	age = age_3_discovery
 	unlock_unit = a_light_falconet
 	unlock_unit = a_heavy_falconet
@@ -20,7 +20,7 @@ unlock_falconet_advance = {
 	requires = training_fields_advance
 }
 
-unlock_chambered_cannon_advance = {
+unlock_chambered2_cannon_advance = {
 	age = age_4_reformation
 	unlock_unit = a_light_chambered_cannon
 	unlock_unit = a_heavy_chambered_cannon
@@ -30,7 +30,7 @@ unlock_chambered_cannon_advance = {
 }
 
 
-unlock_royal_mortar_advance = {
+unlock_royal_mortar2_advance = {
 	age = age_5_absolutism
 	unlock_unit = a_light_royal_mortar
 	unlock_unit = a_heavy_royal_mortar
@@ -38,7 +38,7 @@ unlock_royal_mortar_advance = {
 	requires = regimental_camp_advance
 }
 
-unlock_flying_battery_advance = {
+unlock_flying_battery2_advance = {
 	age = age_6_revolutions
 	unlock_unit = a_light_flying_battery
 	unlock_unit = a_heavy_flying_battery
