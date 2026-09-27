@@ -1,0 +1,48 @@
+﻿l_english:
+ 
+ # Unit Categories
+ army_light_artillery: "Light Artillery"
+ army_heavy_artillery: "Heavy Artillery"
+ 
+ army_light_artillery_desc: "Light Range weapons managed by a crew of specialists that launch projectiles mainly meant for deployement in battles against enemy soldiers"
+ army_heavy_artillery_desc: "Heavy Range weapons managed by a crew of specialists that launch projectiles mainly meant for deployment against enemy fortifications and cities"
+
+
+ #
+ a_age_1_traditions_light_artillery_desc: "$unit_template_desc$"
+ a_age_1_traditions_heavy_artillery_desc: "$unit_template_desc$"
+ a_age_2_renaissance_light_artillery_desc: "$unit_template_desc$"
+ a_age_2_renaissance_heavy_artillery_desc: "$unit_template_desc$"
+ a_age_3_discovery_light_artillery_desc: "$unit_template_desc$"
+ a_age_3_discovery_heavy_artillery_desc: "$unit_template_desc$"
+ a_age_4_reformation_light_artillery_desc: "$unit_template_desc$"
+ a_age_4_reformation_heavy_artillery_desc: "$unit_template_desc$"
+ a_age_5_absolutism_light_artillery_desc: "$unit_template_desc$"
+ a_age_5_absolutism_heavy_artillery_desc: "$unit_template_desc$"
+ a_age_6_revolutions_light_artillery_desc: "$unit_template_desc$"
+ a_age_6_revolutions_heavy_artillery_desc: "$unit_template_desc$" 
+ 
+ #
+ a_age_1_traditions_light_artillery: "Age of Traditions Light Artillery"
+ a_age_1_traditions_heavy_artillery: "Age of Traditions Heavy Artillery"
+ a_age_2_renaissance_light_artillery: "Age of Renaissance Light Artillery"
+ a_age_2_renaissance_heavy_artillery: "Age of Renaissance Heavy Artillery"
+ a_age_3_discovery_light_artillery: "Age of Discovery Light Artillery"
+ a_age_3_discovery_heavy_artillery: "Age of Discovery Heavy Artillery"
+ a_age_4_reformation_light_artillery: "Age of Reformation Light Artillery"
+ a_age_4_reformation_heavy_artillery: "Age of Reformation Heavy Artillery"
+ a_age_5_absolutism_light_artillery: "Age of Absolutism Light Artillery"
+ a_age_5_absolutism_heavy_artillery: "Age of Absolutism Heavy Artillery"
+ a_age_6_revolutions_light_artillery: "Age of Revolutions Light Artillery"
+ a_age_6_revolutions_heavy_artillery: "Age of Revolutions Heavy Artillery"
+ 
+ #
+ subunit_type_army_light_artillery: "Light_Artillery"
+ subunit_type_army_heavy_artillery: "Heavy_Artillery"
+ subunit_type_army_artillery_english: "Light Artillery"
+ subunit_type_army_artillery_english: "Heavy Artillery"
+ subunit_type_army_artillery_low_german: "Leichte Artillerie"
+ subunit_type_army_artillery_low_german: "Schwere Artillerie"
+ subunit_type_army_artillery_high_german: "Leichte Artillerie"
+ subunit_type_army_artillery_high_german: "Schwere Artillerie"
+ 
