@@ -1,0 +1,132 @@
+﻿
+### age 1 ###
+
+	army_light_artillery = {
+		schematic_name = unit_artillery_mortar_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+		#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_mortar_state_machine
+	}
+
+	army_heavy_artillery = {
+		schematic_name = unit_artillery_mortar_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+		#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_mortar_state_machine
+	}
+
+### age 2 ###
+
+	age_2_renaissance:army_light_artillery = {
+		schematic_name = unit_artillery_renaissance_cannon_field_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+	# 	#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+	age_2_renaissance:army_heavy_artillery = {
+		schematic_name = unit_artillery_renaissance_cannon_field_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+	# 	#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+### age 3 ###
+
+	age_3_discovery:army_light_artillery = {
+		schematic_name = unit_artillery_reformation_cannon_field_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+		#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+	age_3_discovery:army_heavy_artillery = {
+		schematic_name = unit_artillery_reformation_cannon_field_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+		#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+### age 4 ###
+
+	age_4_reformation:army_light_artillery = {
+		schematic_name = unit_artillery_reformation_cannon_field_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+	# 	#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+	age_4_reformation:army_heavy_artillery = {
+		schematic_name = unit_artillery_reformation_cannon_field_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+	# 	#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+### age 5 ###
+
+	age_5_absolutism:army_light_artillery = {
+		schematic_name = unit_artillery_discovery_cannon_field_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+	# 	#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+	age_5_absolutism:army_heavy_artillery = {
+		schematic_name = unit_artillery_discovery_cannon_field_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+	# 	#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+### age 6 ###
+
+	age_6_revolutions:army_light_artillery = {
+		schematic_name = unit_artillery_field_canon_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+	# 	#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
+
+	age_6_revolutions:army_heavy_artillery = {
+		schematic_name = unit_artillery_field_canon_skeleton_schematic
+
+		size = 2.5	# Affects space between units in formations and when marching
+
+	# 	#attach = { 100 = artillery }
+		
+		animation_state_machine_name = unit_artillery_field_canon_state_machine
+	}
