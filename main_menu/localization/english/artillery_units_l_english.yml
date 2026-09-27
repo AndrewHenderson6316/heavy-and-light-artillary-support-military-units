@@ -36,7 +36,7 @@
  a_age_6_revolutions_light_artillery: "Age of Revolutions Light Artillery"
  a_age_6_revolutions_heavy_artillery: "Age of Revolutions Heavy Artillery"
  
- #
+ #Unique Units names (category)
  subunit_type_army_light_artillery: "Light_Artillery"
  subunit_type_army_heavy_artillery: "Heavy_Artillery"
  subunit_type_army_artillery_english: "Light Artillery"
@@ -45,4 +45,28 @@
  subunit_type_army_artillery_low_german: "Schwere Artillerie"
  subunit_type_army_artillery_high_german: "Leichte Artillerie"
  subunit_type_army_artillery_high_german: "Schwere Artillerie"
+ 
+ #Unit names
+ a_light_houfnice: "Light Houfnice"
+ a_heavy_houfnice: "Heavy Houfnice"
+ a_light_falconet: "Light Falconet"
+ a_heavy_falconet: "Heavy Falconet"
+ a_light_chambered_cannon: "Light Chambered Cannon"
+ a_heavy_chambered_cannon: "Heavy Chambered Cannon"
+ a_light_royal_mortar: "Light Royal Mortar"
+ a_heavy_royal_mortar: "Heavy Royal Mortar"
+ a_light_flying_battery: "Light Flying Battery"
+ a_heavy_flying_battery: "Heavy Flying Battery"
+
+ #Unit descriptions
+ a_light_houfnice_desc: "It is believed modern howitzers have their name from the Houfnice artillery developed by the Hussites in the 15th century. These short-barreled guns were mounted on wagons and used on the field of battle to fire balls and canisters in support of the infantry."
+ a_heavy_houfnice_desc: "It is believed modern howitzers have their name from the Houfnice artillery developed by the Hussites in the 15th century. These short-barreled guns were mounted on wagons and used on the field of battle to fire balls and canisters in support of the infantry."
+ a_light_falconet_desc: "The $a_light_falconet$ is a light cannon developed in the 15th century as an evolution of the similar falcon, being more mobile while firing smaller caliber shots."
+ a_heavy_falconet_desc: "The $a_heavy_falconet$ is a light cannon developed in the 15th century as an evolution of the similar falcon, being more mobile while firing smaller caliber shots."
+ a_light_chambered_cannon_desc: "The 16th century did not only see improvements in artillery maneuverability but also in the attempts at standardizing the size and weight of artillery pieces."
+ a_heavy_chambered_cannon_desc: "The 16th century did not only see improvements in artillery maneuverability but also in the attempts at standardizing the size and weight of artillery pieces."
+ a_light_royal_mortar_desc: "From the second half of the 17th century the use of artillery on the battlefield became more widespread. The troops were now able to move their field guns with much more ease and speed."
+ a_heavy_royal_mortar_desc: "From the second half of the 17th century the use of artillery on the battlefield became more widespread. The troops were now able to move their field guns with much more ease and speed."
+ a_light_flying_battery_desc: "Artillery is devastating on the battlefield, but completely useless if the enemy does not enter its firing range. A $a_light_flying_battery$ has the capability of relocating itself to where it is most needed and quickly redeploy before any enemy's retaliation."
+ a_heavy_flying_battery_desc: "Artillery is devastating on the battlefield, but completely useless if the enemy does not enter its firing range. A $a_heavy_flying_battery$ has the capability of relocating itself to where it is most needed and quickly redeploy before any enemy's retaliation."
  
