@@ -25,6 +25,18 @@ a_heavy_houfnice = {
 	upgrades_to = a_heavy_falconet
 }
 
+a_experimental_engineers = {
+	copy_from = a_age_2_renaissance_engineers
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = laborers
+		multiply = 0.05
+	}
+
+	upgrades_to = a_early_engineers
+}
+
 ### age 3 ###
 
 a_light_falconet = {
@@ -55,6 +67,18 @@ a_heavy_falconet = {
 
 }
 
+a_early_engineers = {
+	copy_from = a_age_3_discovery_engineers
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = laborers
+		multiply = 0.05
+	}
+
+	upgrades_to = a_advanced_engineers
+}
+
 ### age 4 ###
 
 a_light_chambered_cannon = {
@@ -79,6 +103,18 @@ a_heavy_chambered_cannon = {
 	}
 
 	upgrades_to = a_heavy_royal_mortar
+}
+
+a_advanced_engineers = {
+	copy_from = a_age_4_reformation_engineers
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = laborers
+		multiply = 0.05
+	}
+
+	upgrades_to = a_early_modern_engineers
 }
 
 ### age 5 ###
@@ -111,6 +147,18 @@ a_heavy_royal_mortar = {
 	upgrades_to = a_heavy_flying_battery
 }
 
+a_early_modern_engineers = {
+	copy_from = a_age_5_absolutism_engineers
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = laborers
+		multiply = 0.05
+	}
+
+	upgrades_to = a_advanced_early_modern_engineers
+}
+
 ### age 6 ###
 
 a_light_flying_battery = {
@@ -130,6 +178,17 @@ a_heavy_flying_battery = {
 	#root = location. Checks location_potential first so don't need that scripting in
 	mercenaries_per_location = {
 		pop_type = burghers
+		multiply = 0.05
+	}
+
+}
+
+a_advanced_early_modern_engineers = {
+	copy_from = a_age_6_revolutions_engineers
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = laborers
 		multiply = 0.05
 	}
 

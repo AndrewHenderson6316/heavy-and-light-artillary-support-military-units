@@ -58,7 +58,7 @@ army_light_artillery = {
 	secure_flanks_defense = 0
 	
 	
-	maintenance_demand =  light_artillery_maintenanc
+	maintenance_demand =  light_artillery_maintenance
 	construction_demand = light_artillery_construction
 	
 	
@@ -91,11 +91,44 @@ army_heavy_artillery = {
 	flanking_ability = 1.0
 	secure_flanks_defense = 0
 	
-	
-	maintenance_demand =  heavy_artillery_maintenanc
+	maintenance_demand =  heavy_artillery_maintenance
 	construction_demand = heavy_artillery_construction
 	
 	
 	ai_weight = 0.4
 	startup_amount = 2
+}
+
+army_engineers = {
+	is_army = yes
+	
+	auxiliary = yes
+	
+	movement_speed = 2.0
+	build_time = standard_aux_recruitment_time
+
+	max_strength = 0
+
+	
+	supply_weight = 1.0
+	
+	food_storage_per_strength = 100
+	food_consumption_per_strength = 0.3
+	
+	
+	damage_taken = 1.25
+
+	
+	frontage = 1
+	initiative = 1
+	combat_speed = 1
+	flanking_ability = 1.0
+	secure_flanks_defense = 0
+	
+	maintenance_demand =  engineers_maintenance
+	construction_demand = engineers_construction
+	
+	startup_amount = 1
+	ai_weight = 0.2
+
 }

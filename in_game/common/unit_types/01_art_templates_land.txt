@@ -28,6 +28,16 @@ a_age_1_traditions_heavy_artillery = {
 	age = "age_1_traditions"
 }
 
+a_age_1_traditions_engineers ={
+	category = army_engineers
+	hide = yes
+	buildable = no
+	max_strength = 0.1
+	combat_power = 1
+
+	age = "age_1_traditions"
+}
+
 ## age 2 ###
 
 a_age_2_renaissance_light_artillery = {
@@ -52,6 +62,17 @@ a_age_2_renaissance_heavy_artillery = {
 	artillery_barrage = 4
 	age = "age_2_renaissance"
 }
+
+a_age_2_renaissance_engineers ={
+	category = army_engineers
+	hide = yes
+	buildable = no
+	max_strength = 0.2
+	combat_power = 2
+
+	age = "age_2_renaissance"
+}
+
 
 ### age 3 ###
 
@@ -81,6 +102,17 @@ a_age_3_discovery_heavy_artillery = {
 	age = "age_3_discovery"
 }
 
+a_age_3_discovery_engineers ={
+	category = army_engineers
+	hide = yes
+	buildable = no
+	max_strength = 0.6
+	combat_power = 4
+
+	age = "age_3_discovery"
+}
+
+
 ### age 4 ###
 
 a_age_4_reformation_light_artillery = {
@@ -109,6 +141,17 @@ a_age_4_reformation_heavy_artillery = {
 	age = "age_4_reformation"
 }
 
+a_age_4_reformation_engineers ={
+	category = army_engineers
+	hide = yes
+	buildable = no
+	max_strength = 0.8
+	combat_power = 5
+
+	age = "age_4_reformation"
+}
+
+
 ### age 5 ###
 
 a_age_5_absolutism_light_artillery = {
@@ -119,6 +162,7 @@ a_age_5_absolutism_light_artillery = {
 	combat_power = 5.5
 	bombard_efficiency = 0.25
 	artillery_barrage = 7
+
 	age = "age_5_absolutism"
 }
 
@@ -130,8 +174,20 @@ a_age_5_absolutism_heavy_artillery = {
 	combat_power = 5.5
 	bombard_efficiency = 0.3
 	artillery_barrage = 8
+
 	age = "age_5_absolutism"
 }
+
+a_age_5_absolutism_engineers ={
+	category = army_engineers
+	hide = yes
+	buildable = no
+	max_strength = 1.0
+	combat_power = 5.5
+
+	age = "age_5_absolutism"
+}
+
 
 ### age 6 ###
 
@@ -154,5 +210,15 @@ a_age_6_revolutions_heavy_artillery = {
 	combat_power = 7.5
 	bombard_efficiency = 0.35
 	artillery_barrage = 10
+	age = "age_6_revolutions"
+}
+
+a_age_6_revolutions_engineers ={
+	category = army_engineers
+	hide = yes
+	buildable = no
+	max_strength = 1.2
+	combat_power = 7.5
+
 	age = "age_6_revolutions"
 }
