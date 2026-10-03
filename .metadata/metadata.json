@@ -1,10 +1,11 @@
 ﻿{
-	"name":	"heavy and light artillary support military units",
-	"id":	"",
+	"name":	"Artillery expanded - Artillery Overhaul",
+	"id":	"AEAO",
 	"version":	"0.1",
 	"supported_game_version":	"1.X",
-	"short_description":	"This mod adds them for support and artillery as well. This would open an opportunity to fix/improve some current complaints with war. Introducing: a) Engineer corps (Heavy Support): would speed up sieges, remove getting frozen in winters and give minor movemnt speed over rivers. Super expansive; Heavy Artillarly would be superior for sieging down fortifications while Light Artillary would shine in battles.",
+	"short_description":	"This mod splits the artillery into light and heavy artillery units. This would open an opportunity to fix/improve some current complaints with war. Introducing: a) Engineer corps (Heavy Support): currently has no special feature. b) Heavy Artillery is superior for sieging down fortifications while Light Artillery shines in battles.",
 	"tags":	["Military"],
+    "picture": "thumbnail.png",
 	"relationships":	[],
 	"game_custom_data":	{
 }
