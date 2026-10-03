@@ -1,0 +1,46 @@
+﻿light_artillery_construction = {
+	cannons = 2.0
+	copper = 2.0
+	tin = 0.2
+	category = regiment_construction
+}
+
+heavy_artillery_construction = {
+	cannons = 3.0
+	copper = 3.0
+	tin = 0.3
+	category = regiment_construction
+}
+
+engineers_construction = {
+	firearms = 0.2
+	weaponry = 0.2
+	leather = 0.1
+	tools = 0.1
+	category = regiment_construction
+}
+
+light_artillery_maintenance = {
+	cannons = 1.0 #Ammunition
+	copper = 0.2
+	tin = 0.1
+
+	category = regiment_maintenance
+}
+
+heavy_artillery_maintenance = {
+	cannons = 1.5 #Ammunition
+	copper = 0.4
+	tin = 0.2
+
+	category = regiment_maintenance
+}
+
+
+engineers_maintenance = {
+	firearms = 0.1
+	weaponry = 0.1
+	leather = 0.06
+	tools = 0.06
+	category = regiment_maintenance
+}
